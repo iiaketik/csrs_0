@@ -1,0 +1,14 @@
+FROM node:20-bookworm-slim
+
+WORKDIR /app
+COPY package.json package-lock.json* ./
+COPY web/package.json web/package-lock.json* ./web/
+RUN npm install && npm --prefix web install
+
+COPY . .
+RUN npm run build
+
+ENV NODE_ENV=production
+EXPOSE 3000
+VOLUME ["/app/data", "/app/uploads"]
+CMD ["node", "server/index.js"]

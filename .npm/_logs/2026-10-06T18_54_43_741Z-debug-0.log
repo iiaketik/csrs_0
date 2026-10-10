@@ -1,0 +1,30 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.20.2
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/root/dir/web/.npmrc
+5 silly config load:file:/root/.npmrc
+6 silly config load:file:/usr/etc/npmrc
+7 verbose title npm install
+8 verbose argv "--prefix" "web" "install"
+9 verbose logfile logs-max:10 dir:/root/.npm/_logs/2026-10-06T18_54_43_741Z-
+10 verbose logfile /root/.npm/_logs/2026-10-06T18_54_43_741Z-debug-0.log
+11 silly packumentCache heap:295436288 maxSize:73859072 maxEntrySize:36929536
+12 silly logfile start cleaning logs, removing 1 files
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest react@^18.3.1
+16 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/react 258ms (cache revalidated)
+18 silly packumentCache full:https://registry.npmjs.org/react set size:7021259 disposed:false
+19 silly fetch manifest react-dom@^18.3.1
+20 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/react-dom 251ms (cache revalidated)
+22 silly packumentCache full:https://registry.npmjs.org/react-dom set size:9463016 disposed:false
+23 silly fetch manifest @vitejs/plugin-react@^4.3.1
+24 silly packumentCache full:https://registry.npmjs.org/@vitejs%2fplugin-react cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fplugin-react 77ms (cache revalidated)
+26 silly packumentCache full:https://registry.npmjs.org/@vitejs%2fplugin-react set size:287413 disposed:false
+27 silly fetch manifest vite@^5.4.8
+28 silly packumentCache full:https://registry.npmjs.org/vite cache-miss
+29 http fetch GET 200 https://registry.npmjs.org/vite 1124ms (cache revalidated)
